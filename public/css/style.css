@@ -1,0 +1,277 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syncopate&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+
+body, header, section, footer {
+    overflow-x: hidden;
+    font-family: var(--Montserat);
+}
+
+:root{
+    --Sniglet-font: "Sniglet", cursive;
+    --Montserat: "Montserrat";
+    --Syncopate-font: "Syncopate";
+    --Rubik:"Rubik", cursive;
+    --light-black:#2e2c2cde;
+    --bggradient: linear-gradient(to top, #d8d3d5, #010042);
+    --light-gray:#ffffffb3;
+    --hover: #a0d732;
+}
+
+header a{
+    font-family: var(--Sniglet-font);
+    font-size: .9rem;
+    color: #f5f5f5;
+}
+
+header {
+    background: var(--bggradient);
+    min-height: 100vh;
+    
+    overflow:hidden;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{
+    border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+header .nav-item:last-child{
+    padding-right: 10.5rem;
+}
+
+header .nav-item {
+    padding: .9rem;
+}
+
+header .navbar-brand {
+    padding-left: 8rem;
+}
+
+header .navbar-nav .nav-link:hover, .media a:hover, .navbar-brand:hover{
+    color: var(--hover);
+}
+
+a.nav-link.active {
+    color: var(--hover);
+    
+}
+
+header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-7{
+    padding: 9vmin 1vmin;
+    font-family: var(--Rubik);
+    color: #ffffff;
+}
+
+header .row .col-md-5 img {
+    width:65%;
+    border-radius: 40px;
+    box-shadow: 0px 2px 15px 0px rgba(6, 0, 88, 0.702);
+
+}
+
+header .container .col-md-7 h6{
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+    font-size: 8.5vmin;
+    font-weight: bold;
+    padding: .1rem 0;
+}
+
+header .container .col-md-7 p {
+    padding: 1vmin 5vmin;
+}
+
+header .container .col-md-7 button {
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+header .container a:hover{
+    color: var(--hover)
+}
+/* media side bar */
+
+.media {
+    width: 10rem;
+    height: 7rem;
+    color: var(--light-gray);
+    border-radius: 0 10px 10px 0;
+    position: fixed;
+    top: 60%;
+    background: rgba(0, 0, 0, .6);
+    left: -10rem;
+    z-index: 99999;
+    
+    transition: all 1s ease;
+}
+.showBar{
+    left: -7rem;
+}
+
+.media a {
+    color: var(--light-gray);
+    text-decoration: none;
+}
+
+.media:hover {
+    background: rgba(0, 0, 0, .8);
+    left: -.5rem;
+}
+
+.handle {
+    position: absolute;
+    font-family: var(--Montserat);
+    font-size: 1.3rem;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    padding-top: 1vmin;
+    text-align: right;
+}
+
+
+.btn-back-to-top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: -1;
+    opacity: 0;
+    transition: all .5s ease;
+    border: none;
+    background-color: rgba(188, 236, 17, .459);
+  }
+
+
+section:nth-of-type(even){
+    background: var(--bggradient);
+    color: #eeeeee;
+}
+/* section */
+
+section {
+    padding-bottom: 10vmin;
+}
+.section-1 {
+    padding: 20vmin 0;
+}
+
+.section-2{
+    color: var(--light-black)
+}
+.section_header>h1{
+    padding-top: 10vmin;
+    padding-bottom: .1rem;
+    font-family: var(--Syncopate-font);
+}
+
+
+.section_header>p{
+    font-size: 3vmin;
+    font-family: var(--Montserat);
+    padding-bottom: 10vmin;
+    margin: 0;
+}
+
+.section_header .cards .card {
+    width: 22rem;
+    margin: 3vmin;
+}
+.carousel-inner{
+    border-radius: 15px;
+    background-color: #fff;
+}
+.cards div {
+    padding: 0;
+    margin: 0;
+}
+
+.cards .title {
+    background: rgba(208, 241, 241, .5);
+    padding: 1.4rem 2.5rem;
+    font-size: 2vmin;
+    
+}
+.card .card-title{
+    color: var(--light-black);
+}
+.card .card-text {
+    padding: 2.5rem 3rem 1rem;
+    color: var(--light-black);
+}
+
+
+
+.sticky{
+    position: fixed;
+    top:0;
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+    z-index: 5;
+    transition: opacity .5s ease;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    filter: invert(1);
+}
+
+.title {
+    font-family: var(--Syncopate-font);
+}
+
+.skills-item{
+    width: 7rem;
+    height: 7rem;
+}
+.skills-personal, .container-personal-skills, .skills-item{
+    margin: 1rem;
+}
+
+footer{
+    background: rgba(0, 0, 0, .8);
+    padding: 10vmin 18vmin;
+}
+
+footer{
+    font-family: var(--Montserat);
+    color: var(--light-gray);
+}
+
+footer a, footer div p { 
+    text-decoration: none;
+    color: var(--light-gray);
+}
+
+footer a:hover {
+    color: var(--hover);
+}

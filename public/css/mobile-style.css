@@ -1,0 +1,57 @@
+@media only screen and (max-width: 992px) {
+    header .navbar-brand{
+        padding-left: 1rem;
+    }
+
+    header .row .col-md-5 img {
+        width:80%;
+        margin-left: 10vmin;
+        margin-top: 5vmin;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        height: auto;
+    }
+    header .navbar-brand{
+        padding-left: 0;
+    }
+    header .row .col-md-5 img {
+        width:50%;
+        margin: 0;
+    }
+
+    .card-img-top>img {
+        width: 100% !important;
+    }
+    .media { 
+        left: -10rem;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    header .row .col-md-7{
+        padding-top: 0;
+        
+    }
+
+    .carousel-inner, #forthProject{
+        min-height: 500px;
+    }
+    .accordion-body{
+        padding: 0;
+    }
+    .card .card-text {
+        padding: .5rem 2rem 1rem;
+        color: var(--light-black);
+    }
+}
+
+@media only screen and (max-width:340px) {
+    
+    .skills-item{
+        margin: 1rem 0;
+    }
+}
