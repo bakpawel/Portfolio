@@ -21,7 +21,6 @@ $(document).ready(function () {
       navbar.css({ opacity: "0" });
       header.css({ paddingTop: "0" });
       toTheTopBtn.css({ opacity: "0", zIndex: "-1" });
-      // setTimeout(navbar.removeClass("sticky"), 5000);
       navbar.removeClass("sticky");
     }
 
