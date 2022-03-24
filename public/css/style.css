@@ -211,7 +211,6 @@ section {
 }
 .accordion-button:not(.collapsed){
     background-color: #ffc928d7;
-    /* border: 5px solid; */
     color: #000;
     border-radius: 5px;
     font-size: 1rem;
@@ -292,7 +291,7 @@ section {
     margin: 0.5rem;
 }
 .skills-personal, .container-personal-skills{
-    margin: 1rem;
+    padding: 1rem;
 }
 
 footer{
