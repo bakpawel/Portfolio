@@ -137,12 +137,13 @@
         >
       <i class="fas fa-arrow-up"></i>
       </button>
+      <!-- First Section -->
       <section id="skills" class="section-2 container-fluid text-center">
         <div class="section_header text-center">
           <h1 class="title"data-aos="flip-right">Skills</h1>
           <p>This is what you can expect about my skills!</p>
         </div>
-        <div class="accordion container-fluid text-center col-md-10  " id="accordion">
+        <div class="accordion container-fluid text-center col-md-10" id="accordion">
           <div class="accordion-item shadow">
             <h2 class="accordion-header">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -152,12 +153,13 @@
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
               <div class="accordion-body container-fluid text-center">
                   <div
-                    class=" d-flex flex-md-row flex-wrap justify-content-around"
+                    class="d-flex flex-md-row flex-wrap justify-content-around my-4"
                   >
                     <div class="skills-item">
                       <h5>HTML5</h5>
                       <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"data-aos="flip-right" alt="html icon"/>
                     </div>
+                    
                     <div class="skills-item">
                       <h5>CSS3</h5>
                       <img src="https://img.icons8.com/color/48/000000/css3.png"data-aos="flip-right"data-aos-delay="250" alt="css icon"/>
@@ -186,7 +188,10 @@
                       <h5>Git</h5>
                       <img src="https://img.icons8.com/color/48/000000/git.png" data-aos="flip-right"data-aos-delay="250" alt="git icon"/>
                     </div>
-                   
+                    <div class="skills-item">
+                      <h5>JQuery</h5>
+                      <img src="https://img.icons8.com/ios-filled/50/000000/jquery.png" data-aos="flip-right" alt="jquery icon"/>
+                    </div>
                 </div>
               </div>
             </div>
@@ -218,10 +223,7 @@
                       <img src="https://img.icons8.com/fluency/48/000000/consultation.png"/>
                     </div>
                   </div>
-                  <div
-                    class=" d-flex flex-md-row flex-wrap justify-content-around container-personal-skills"
-                  >
-                </div>
+                  
                 </div>
               </div>
             </div>
@@ -234,10 +236,11 @@
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
                 <div class="accordion-body container-fluid text-start col-11 my-4">
                   <ul class="list-group">
-                    <li class="list-group-item">English - Advanced</li>
-                    <li class="list-group-item">Jira - Basics</li>
-                    <li class="list-group-item">Excel</li>
-                    <li class="list-group-item">Driving Licence</li>
+                    <li class="list-group-item"><img src="https://img.icons8.com/color/48/000000/great-britain-circular.png" class="m-2 ms-0"/>English - Advanced(C1)</li>
+                    <li class="list-group-item"><img src="https://img.icons8.com/color/48/000000/jira.png" class="m-2 ms-0"/>Jira - Basics</li>
+                    <li class="list-group-item"><img src="https://img.icons8.com/color/48/000000/microsoft-excel-2019--v1.png" class="m-2 ms-0"/>Excel</li>
+                    <li class="list-group-item"><img src="https://img.icons8.com/color/48/000000/globe--v1.png" class="m-2 ms-0"/>Geographic Information System (GIS)</li>
+                    <li class="list-group-item"><img src="https://img.icons8.com/fluency/48/000000/car.png" class="m-2 ms-0"/>Driving Licence</li>
                   </ul>
                 </div>
               </div>
@@ -291,7 +294,7 @@
           <!-- First project -->
           <div class="carousel-inner shadow ">
             <div class="carousel-item active">
-              <div class="card d-inline-block w-100">
+              <div class="card d-inline-block w-100 border-0">
                 <div class="card-img-top">
                   <img
                 src="assets/Project_1.png"
@@ -302,16 +305,20 @@
                 <div class="card-body w-100">
                   <h3 class="card-title">Words Game</h3>
                   <p class="card-text fs-5">
-                    HTML / CSS / JavaScript / RegEx
+                    <span class="item">HTML</span>
+                    <span class="item">CSS</span>
+                    <span class="item">JavaScript</span>
+                    <span class="item">RegEx</span>
+                    <span class="item">RWD</span>
                   </p>
                   <div class="row justify-content-center pb-4">
-                    <div class=" col-md-6 col-sm-12 text-md-end my-2 my-md-3">
-                      <a href="https://dajeslowo-wordgame.web.app/" target="_blank" role="button" class="btn btn-outline-success col-md-5 col-sm-10 bg-light text-secondary text-decoration-none"
+                    <div class="col-12 col-md-6 text-md-end my-2 my-md-3">
+                      <a href="https://dajeslowo-wordgame.web.app/" target="_blank" role="button" class="btn"
                         >Live Demo</a
                       >
                     </div>
-                    <div class="col-md-6 col-sm-12 text-md-start my-2 my-md-3">
-                      <a href="https://github.com/bakpawel/Daje-Slowo---Word-s-Game" role="button" target="_blank" class="btn btn-outline-success col-md-5 col-sm-10 bg-light text-secondary text-decoration-none"
+                    <div class="col-12 col-md-6 text-md-start my-2 my-md-3">
+                      <a href="https://github.com/bakpawel/Daje-Slowo---Word-s-Game" role="button" target="_blank" class="btn"
                       >Source Code</a
                     >
                     </div>
@@ -321,7 +328,7 @@
             </div>
             <!-- Second project -->
             <div class="carousel-item ">
-              <div class="card d-inline-block w-100">
+              <div class="card d-inline-block w-100 border-0">
                 <div class="card-img-top">
                   <img
                     src="assets/Project_2.png" 
@@ -332,16 +339,21 @@
                 <div class="card-body">
                   <h3 class="card-title">Online Contacts Book</h3>
                   <p class="card-text fs-5">
-                    HTML / Bootstrap / Angular / Typescript / Firebase
+                    <span class="item">HTML</span>
+                  <span class="item">Bootstrap</span>
+                  <span class="item">Angular</span>
+                  <span class="item">Typescript</span>
+                  <span class="item">Firebase</span>
+                  <span class="item">RWD</span>
                   </p>
                   <div class="row justify-content-center pb-4">
-                    <div class=" col-md-6 col-sm-12 text-md-end my-2 my-md-3">
-                      <a href="https://contact-book-6d19e.firebaseapp.com/" role="button" target="_blank" class="btn btn-outline-success col-md-5 col-sm-10 bg-light text-secondary text-decoration-none"
+                    <div class="col-12 col-md-6 text-md-end my-2 my-md-3">
+                      <a href="https://contact-book-6d19e.firebaseapp.com/" role="button" target="_blank" class="btn"
                         >Live Demo</a
                       >
                     </div>
-                    <div class="col-md-6 col-sm-12 text-md-start my-2 my-md-3">
-                      <a href="https://github.com/bakpawel/app-contacts-book" role="button" target="_blank" class="btn btn-outline-success col-md-5 col-sm-10 bg-light text-secondary text-decoration-none"
+                    <div class="col-12 col-md-6 text-md-start my-2 my-md-3">
+                      <a href="https://github.com/bakpawel/app-contacts-book" role="button" target="_blank" class="btn"
                       >Source Code</a
                     >
                     </div>
@@ -351,7 +363,7 @@
           </div>
           <!-- Third project -->
             <div class="carousel-item ">
-              <div class="card d-inline-block w-100">
+              <div class="card d-inline-block w-100 border-0">
                 <div class="card-img-top">
                   <img
                 src="assets/Project_3.png"
@@ -362,16 +374,20 @@
                 <div class="card-body">
                   <h3 class="card-title">Restaurant Page</h3>
                   <p class="card-text fs-5">
-                    HTML / SCSS / BEM / JQUERY
+                  <span class="item">HTML</span>
+                  <span class="item">SCSS</span>
+                  <span class="item">BEM</span>
+                  <span class="item">JQUERY</span>
+                  <span class="item">RWD</span>
                   </p>
                   <div class="row justify-content-center pb-4">
-                    <div class=" col-md-6 col-sm-12 text-md-end my-2 my-md-3">
-                      <a href="https://italianrestaurantpage.web.app/" target="_blank" role="button" class="btn btn-outline-success col-md-5 col-sm-10 bg-light text-secondary text-decoration-none"
+                    <div class="col-12 col-md-6 text-md-end my-2 my-md-3">
+                      <a href="https://italianrestaurantpage.web.app/" target="_blank" role="button" class="btn"
                         >Live Demo</a
                       >
                     </div>
-                    <div class="col-md-6 col-sm-12 text-md-start my-2 my-md-3">
-                      <a href="https://github.com/bakpawel/restaurantPage" target="_blank" role="button"class="btn btn-outline-success col-md-5 col-sm-10 bg-light text-secondary text-decoration-none"
+                    <div class="col-12 col-md-6 text-md-start my-2 my-md-3">
+                      <a href="https://github.com/bakpawel/restaurantPage" target="_blank" role="button"class="btn"
                       >Source Code</a
                     >
                     </div>
@@ -381,7 +397,7 @@
           </div>
           <!-- Forth project -->
           <div class="carousel-item ">
-            <div class="card d-inline-block w-100" id="forthProject">
+            <div class="card d-inline-block w-100 border-0" id="forthProject">
               <div class="card-img-top">
                 <img
               src="assets/Project_4.png"
@@ -392,15 +408,22 @@
               <div class="card-body">
                 <h3 class="card-title">This Portfolio Page</h3>
                 <p class="card-text fs-5">
-                  HTML / CSS / Bootstrap / JQUERY
+                  <span class="item">HTML</span>
+                  <span class="item">CSS</span>
+                  <span class="item">Bootstrap</span>
+                  <span class="item">JQUERY</span>
+                  <span class="item">RWD</span>
                 </p>
-                <div class="row justify-content-center pb-4">
-                  <div class="col-md-6 col-sm-12 text-md-center my-2 my-md-3">
-                    <a href="https://github.com/bakpawel/portfolio" target="_blank" role="button"class="btn btn-outline-success col-md-5 col-sm-10 bg-light text-secondary text-decoration-none"
-                    >Source Code</a
-                  >
+                <div class="container">
+                  <div class="row justify-content-center pb-4">
+                    <div class="col-12 col-md-6 text-md-center my-2 my-md-3">
+                      <a href="https://github.com/bakpawel/portfolio" target="_blank" role="button"class="btn"
+                        >Source Code</a>
+                    </div>
                   </div>
                 </div>
+                
+                
               </div>
             </div>
         </div>

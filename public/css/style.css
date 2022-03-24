@@ -204,9 +204,21 @@ section {
     margin: 0;
 }
 
-.section_header .cards .card {
-    width: 22rem;
-    margin: 3vmin;
+/* accordion */
+
+.accordion-button{
+    text-transform: uppercase;
+}
+.accordion-button:not(.collapsed){
+    background-color: #ffc928d7;
+    /* border: 5px solid; */
+    color: #000;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.accordion-button:focus{
+    box-shadow: 0 0 0 0.25rem #002079;
 }
 .carousel-inner{
     border-radius: 15px;
@@ -227,11 +239,36 @@ section {
     color: var(--light-black);
 }
 .card .card-text {
-    padding: 2.5rem 3rem 1rem;
+    padding: 1.5rem 3rem 1rem;
     color: var(--light-black);
 }
+.card a{
+    width: 58%;
+    border: 2px solid var(--light-black);
+    border-radius: 15px;
+    color: var(--light-black);
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.card a:hover{
+    background: var(--hover);
+    border-color: var(--hover);
+    color:rgba(0, 0, 0, .8);
+    transition: .5s;
+}
 
-
+.item{
+    background-color: #ffc107;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 3px 8px;
+    text-transform: uppercase;
+}
 
 .sticky{
     position: fixed;
@@ -250,10 +287,11 @@ section {
 }
 
 .skills-item{
-    width: 7rem;
-    height: 7rem;
+    width: 6.5rem;
+    height: 5rem;
+    margin: 0.5rem;
 }
-.skills-personal, .container-personal-skills, .skills-item{
+.skills-personal, .container-personal-skills{
     margin: 1rem;
 }
 

@@ -24,7 +24,7 @@
     }
 
     .card-img-top>img {
-        width: 100% !important;
+        width: 80% !important;
     }
     .media { 
         left: -10rem;
@@ -62,6 +62,9 @@
     .card .card-text {
         padding: .5rem 2rem 1rem;
         color: var(--light-black);
+    }
+    .card a{
+        width: 80%;
     }
 }
 
