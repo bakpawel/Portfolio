@@ -27,13 +27,13 @@ Project is created with:
 - projects represented as carousel with cards
 - "go to top" and "go to section" created with JQuery
 - ensuring a constant height of carousel with JQuery
-- side toolbar appearing when you leave the welcom section, and disappering when go back to the top
+- side toolbar appearing when you leave the welcome section, and disappering when you go back to the top
 - reduced animations on mobiles
 - hamburger menu on mobiles
 
 ## Screenshots
 
-![Example screenshot](.\public\assets\Project_4.png)
+![Example screenshot](./public/assets/Project_4.png)
 
 ## Launch
 
